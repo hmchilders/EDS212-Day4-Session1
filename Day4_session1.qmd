@@ -1,0 +1,21 @@
+---
+title: "Session 1"
+author: "Heather Childers"
+format: html
+editor: visual
+---
+
+## Session 1: Create some Vectors
+
+```{r}
+# Create a vector
+rain <- c(3,5,10.1, 6)
+
+# Check the class in the CONSOLE
+#class(rain)
+
+#Scalar vector multiplication
+3 * rain
+# Store the scaled value by using the assignent operator, note storing the scaled value doesnt print the values
+rain_scaled <- (5*rain)
+```
